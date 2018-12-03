@@ -6,4 +6,4 @@ Usage:
 3. ???
 4. profit
 ##### Sorry for bad quality, check the uploaded file
-[Imgur](https://i.imgur.com/pGWWlq6.gifv)
+![Imgur](https://i.imgur.com/pGWWlq6.gifv)
