@@ -1,0 +1,213 @@
+z<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HOROSCOPE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+
+  <body id="page-top" class="loaded">
+   <div class = "centered">
+    <div class = "blob-1"></div>
+    <div class = "blob-2"></div>
+  </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><h1 style="margin-top:8%;">Horoscope</h1></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#getit">Get your daily</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#donate">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-12 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">Best daily horoscope you could ever find</h1>
+              <div class="text-center">
+              <a href="#getit" class="btn btn-outline btn-xl js-scroll-trigger ">Get your horoscope</a>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="getit">
+      <div class="container">
+      <div class="modal" tabindex="-1" role="dialog" id="afisare" >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="titlu">Modal title</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="prognoz">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="zodias">
+        <div class="col-xs-4 zod" id="aries">
+          <h3> Aries</h3>
+          <img src="img/aries.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="gemini">
+          <h3>Gemini  </h3>
+          <img src="img/gemini.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="cancer">
+          <h3>Cancer</h3>
+          <img src="img/cancer.png" alt="" class=" img-responsive" >
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-xs-4 zod" id="leo">
+          <h3>Leo</h3>
+          <img src="img/leo.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="virgo">
+          <h3>Virgo</h3>
+          <img src="img/virgo.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="libra">
+         <h3> Libra</h3>
+          <img src="img/libra.png" alt="" class=" img-responsive" >
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-xs-4 zod" id="scorpio">
+         <h3> Scorpio</h3>
+          <img src="img/scorpio.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="sagittarius">
+         <h3> Sagittarius</h3>
+          <img src="img/sagittarius.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="capricorn">
+         <h3> Capricorn</h3>
+          <img src="img/capricorn.png" alt="" class=" img-responsive" >
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-xs-4 zod" id="aquarius">
+         <h3> Aquarius</h3>
+          <img src="img/aquarius.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="pisces">
+         <h3> Pisces</h3>
+          <img src="img/pisces.png" alt="" class=" img-responsive" >
+        </div>
+        <div class="col-xs-4 zod" id="taurus">
+          <h3>Taurus</h3>
+          <img src="img/taurus.png" alt="" class=" img-responsive" >
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="features" id="donate">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Donate to the devs</h2>
+          <p class="text-muted">We don't display ads and the app is free, if you want you can donate.</p>
+          <hr>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+         
+          <div class="col-xs-12">
+            <div class="text-center">
+              <a class="btn btn-primary btn-xl" id="pay" href="https://paypal.me/mihalake" role="button">PayPal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section class="contact bg-primary " id="contact" >
+      <div class="container">
+        <div class="text-center center">
+        <h2>Want to hire us?</h2>
+        <ul class="list-inline list-social">
+          
+          <li class="list-inline-item social-google-plus">
+            <a href="mailto:nicumih7@gmail.com">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+
+</html>
