@@ -1,9 +1,9 @@
 # horoscop-mobile-app
 Cordova mobile app for ios/android, below is a demo.
 Usage:
-	1.create cordova project add platforsms,blablabla
-	2. replace www folder with the one from project
-	3. ???
-	4. profit
+1. create cordova project add platforsms,blablabla
+2. replace www folder with the one from project
+3. ???
+4. profit
 ##### Sorry for bad quality, check the uploaded file
-![Watch it](http://i.imgur.com/pGWWlq6.gifv)
+[Imgur](https://i.imgur.com/pGWWlq6.gifv)
