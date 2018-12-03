@@ -6,4 +6,4 @@ Usage:
 3. ???
 4. profit
 ##### Sorry for bad quality, check the uploaded file
-![Imgur](https://i.imgur.com/pGWWlq6.gifv)
+![GIT](https://github.com/ni3k/horoscop-mobile-app/blob/master/gifdemo.gif)
